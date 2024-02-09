@@ -1,8 +1,8 @@
 nfd:
-  enabled: false
+  enabled: true
 
 labeller:
-  enabled: false
+  enabled: true
 
 namespace: kube-system
 
@@ -22,10 +22,10 @@ lbl:
 imagePullSecrets: []
 
 securityContext:
-  allowPrivilegeEscalation: false
+  allowPrivilegeEscalation: true
   capabilities:
     drop:
-    - ALL
+      - ALL
 
 tolerations:
   - key: CriticalAddonsOnly
