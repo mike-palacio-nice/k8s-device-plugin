@@ -22,7 +22,7 @@ lbl:
 imagePullSecrets: []
 
 securityContext:
-  allowPrivilegeEscalation: true
+  allowPrivilegeEscalation: false
   capabilities:
     drop:
       - ALL
