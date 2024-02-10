@@ -4,7 +4,7 @@ nfd:
 labeller:
   enabled: false
 
-namespace: default
+namespace: kube-system
 
 dp:
   image:
